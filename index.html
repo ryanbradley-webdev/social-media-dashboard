@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="./main.js" defer></script>
+  <title>Frontend Mentor | Social Media Dashboard</title>
+</head>
+<body>
+
+  <header>
+
+    <div class="main-header">
+      <h1>Social Media Dashboard</h1>
+      <h4>Total Followers: <span id="followers">23,004</span></h4>
+    </div>
+    <hr id="header-splitter">
+    <div class="theme-selector">
+      <label for="theme">Dark Mode</label>
+      <input type="checkbox" name="theme" id="theme">
+    </div>
+
+  </header>
+
+  <main>
+
+    <div class="main-card-grid">
+
+      <div class="card main-card" id="facebook-card">
+        <div class="handle-div">
+          <img src="./images/icon-facebook.svg" alt="">
+          <span class="handle">@nathanf</span>
+        </div>
+        <div class="follower-count">
+          <h2>1987</h2>
+          <div class="followers">FOLLOWER<span>S</span></div>
+        </div>
+        <div class="daily-change">
+          <img src="./images/icon-up.svg" alt="">
+          <span class="daily-change-number up">12 Today</span>
+        </div>
+      </div>
+
+      <div class="card main-card" id="twitter-card">
+        <div class="handle-div">
+          <img src="./images/icon-twitter.svg" alt="">
+          <span class="handle">@nathanf</span>
+        </div>
+        <div class="follower-count">
+          <h2>1044</h2>
+          <div class="followers">FOLLOWER<span>S</span></div>
+        </div>
+        <div class="daily-change">
+          <img src="./images/icon-up.svg" alt="">
+          <span class="daily-change-number up">99 Today</span>
+        </div>
+      </div>
+
+      <div class="card main-card" id="instagram-card">
+        <div class="handle-div">
+          <img src="./images/icon-instagram.svg" alt="">
+          <span class="handle">@realnathanf</span>
+        </div>
+        <div class="follower-count">
+          <h2>11k</h2>
+          <div class="followers">FOLLOWER<span>S</span></div>
+        </div>
+        <div class="daily-change">
+          <img src="./images/icon-up.svg" alt="">
+          <span class="daily-change-number up">1099 Today</span>
+        </div>
+      </div>
+
+      <div class="card main-card" id="youtube-card">
+        <div class="handle-div">
+          <img src="./images/icon-youtube.svg" alt="">
+          <span class="handle">Nathan F.</span>
+        </div>
+        <div class="follower-count">
+          <h2>8239</h2>
+          <div class="followers">SUBSCRIBER<span>S</span></div>
+        </div>
+        <div class="daily-change">
+          <img src="./images/icon-down.svg" alt="">
+          <span class="daily-change-number down">144 Today</span>
+        </div>
+      </div>
+
+    </div>
+
+    <h3>Overview - Today</h3>
+
+    <div class="overview-grid">
+
+      <div class="card secondary-card">
+        <div class="secondary-top-div">
+          <span>Page Views</span>
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="secondary-bottom-div">
+          <span class="parameter-change">87</span>
+          <div class="percent-change">
+            <img src="./images/icon-up.svg" alt="">
+            <span class="percentage up">3%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card secondary-card">
+        <div class="secondary-top-div">
+          <span>Likes</span>
+          <img src="./images/icon-facebook.svg" alt="">
+        </div>
+        <div class="secondary-bottom-div">
+          <span class="parameter-change">52</span>
+          <div class="percent-change">
+            <img src="./images/icon-down.svg" alt="">
+            <span class="percentage down">2%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card secondary-card">
+        <div class="secondary-top-div">
+          <span>Likes</span>
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="secondary-bottom-div">
+          <span class="parameter-change">5462</span>
+          <div class="percent-change">
+            <img src="./images/icon-up.svg" alt="">
+            <span class="percentage up">2257%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card secondary-card">
+        <div class="secondary-top-div">
+          <span>Profile Views</span>
+          <img src="./images/icon-instagram.svg" alt="">
+        </div>
+        <div class="secondary-bottom-div">
+          <span class="parameter-change">52k</span>
+          <div class="percent-change">
+            <img src="./images/icon-up.svg" alt="">
+            <span class="percentage up">1375%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card secondary-card">
+        <div class="secondary-top-div">
+          <span>Retweets</span>
+          <img src="./images/icon-twitter.svg" alt="">
+        </div>
+        <div class="secondary-bottom-div">
+          <span class="parameter-change">87</span>
+          <div class="percent-change">
+            <img src="./images/icon-up.svg" alt="">
+            <span class="percentage up">303%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card secondary-card">
+        <div class="secondary-top-div">
+          <span>Likes</span>
+          <img src="./images/icon-twitter.svg" alt="">
+        </div>
+        <div class="secondary-bottom-div">
+          <span class="parameter-change">507</span>
+          <div class="percent-change">
+            <img src="./images/icon-up.svg" alt="">
+            <span class="percentage up">553%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card secondary-card">
+        <div class="secondary-top-div">
+          <span>Likes</span>
+          <img src="./images/icon-youtube.svg" alt="">
+        </div>
+        <div class="secondary-bottom-div">
+          <span class="parameter-change">107</span>
+          <div class="percent-change">
+            <img src="./images/icon-down.svg" alt="">
+            <span class="percentage down">19%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card secondary-card">
+        <div class="secondary-top-div">
+          <span>Total Views</span>
+          <img src="./images/icon-youtube.svg" alt="">
+        </div>
+        <div class="secondary-bottom-div">
+          <span class="parameter-change">1407</span>
+          <div class="percent-change">
+            <img src="./images/icon-down.svg" alt="">
+            <span class="percentage down">12%</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://ryanbradleyportfolio.com" target="_blank" rel="no-opener no-referrer">Ryan Bradley</a>.
+  </footer>
+
+</body>
+</html>
